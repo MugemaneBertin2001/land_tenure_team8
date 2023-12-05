@@ -8,7 +8,6 @@ import HeroSection from '@/components/HeroSection'
 import PropertyListing from '@/components/PropertyListing'
 import TestimonialSection from '@/components/TestimonialSection'
 
-
 export default function Home() {
   return (
    <div>
@@ -16,10 +15,12 @@ export default function Home() {
     <HeroSection />
     <AboutSection />
     <FeaturesSection />
+    <div id='listing'>
     <PropertyListing />
-    {/* <ContactSection />
-    <TestimonialSection />
-    <FooterSection /> */}
+    <ContactSection />
+    <TestimonialSection  />
+    </div>
+    <FooterSection />
    </div>
   )
 }

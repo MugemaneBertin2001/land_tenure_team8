@@ -2,7 +2,7 @@ import React from 'react'
 
 function FooterSection() {
   return (
-    <div>FooterSection</div>
+    <div id='footer-section' className='text-white'>FooterSection</div>
   )
 }
 
