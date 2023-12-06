@@ -6,13 +6,13 @@ function AboutSection() {
     <div className="flex flex-col-reverse md:flex-row justify-center items-center md:items-start px-4 md:px-8 py-6" id='about-section'>
     {/* Left content */}
     <div className="md:w-1/2 md:pr-8">
-      <div className='text-center items-center my-10'>
-        <p className='text-xl text-white font-bold text-left'>
+      <div className='text-center items-center my-6'>
+        <p className='text-xl text-white font-bold md:text-left text-center'>
         About <span className='text-pink-800'>
         LandVault
         </span>
         </p>
-        <p className='text-white text-left my-10'>
+        <p className='text-white  md:text-left text-center my-10'>
         At LandVault, we believe in the transformative power of blockchain technology. 
         Our journey began with a simple yet profound goal: to reshape the global landscape 
         of land ownership, bringing transparency, security, and efficiency to the forefront.
