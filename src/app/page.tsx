@@ -8,6 +8,7 @@ import HeroSection from '@/components/HeroSection'
 import PropertyListing from '@/components/PropertyListing'
 import TestimonialSection from '@/components/TestimonialSection'
 
+
 export default function Home() {
   return (
    <div>
@@ -22,5 +23,20 @@ export default function Home() {
     </div>
     <FooterSection />
    </div>
+
+export default function Home() {
+  return (
+    <div>
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <FeaturesSection />
+      <div id='listing'>
+        <PropertyListing />
+        <ContactSection />
+        <TestimonialSection />
+      </div>
+      <FooterSection />
+    </div>
   )
 }
