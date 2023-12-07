@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 #HeroSection{
   background-image: url('../Images/Hero-section.svg');
 }
@@ -23,11 +24,11 @@
 }
 #contact-us{
   background-image: url('../Images/contact-us.svg');
-  /* background-color: purple; */
 }
 #footer-section{
   background-image:url('../Images/Footer.svg')
 }
 #button{
-  background-color: purple;
+  background-image: url('../Images/Button.svg');
+  /* background-color: rgb(99, 4, 99); */
 }

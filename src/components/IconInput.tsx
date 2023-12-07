@@ -1,5 +1,4 @@
 import React from 'react';
-import { UserIcon } from '@heroicons/react/outline';
 
 interface IconInputProps {
   icon: React.ElementType;
@@ -12,7 +11,7 @@ const IconInput: React.FC<IconInputProps> = ({ icon: Icon, placeholder, ...rest 
     <div className="relative">
       <input
         {...rest}
-        className="border rounded w-full py-2 pl-10 pr-4 text-gray-700"
+        className="border rounded w-full py-2 pl-10 pr-4 text-gray-700 "
         placeholder={placeholder}
       />
       <span className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -21,3 +20,4 @@ const IconInput: React.FC<IconInputProps> = ({ icon: Icon, placeholder, ...rest 
     </div>
   );
 };
+export default  IconInput

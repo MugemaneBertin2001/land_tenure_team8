@@ -19,11 +19,11 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 max-w-xs mx-auto">
       <div className="text-center">
-        <p className="text-gray-800 text-lg">{quote}</p>
+        <p className="text-gray-800 text-md italic h-fit">{`"${quote}"`}</p>
         <div className="mt-4 flex flex-col md:flex-row items-center">
         <div className="w-full sm:w-1/3 flex-shrink-0">
-          <div className="rounded-full h-20 w-20 overflow-hidden items-center">
-            <Image className="object-cover w-full h-full mx-auto" src={image} alt="Profile" />
+          <div className="rounded-full h-20 w-20 overflow-hidden items-center  mx-auto">
+            <Image className="object-cover w-full h-full mx-auto " src={image} alt="Profile" />
           </div>
         </div>
         <div className="mt-4 sm:mt-0 sm:ml-4 flex-grow">
