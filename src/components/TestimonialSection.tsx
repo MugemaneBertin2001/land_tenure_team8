@@ -106,7 +106,7 @@ const TestimonialSection: React.FC = () => {
   };
 
   return (
-    <div className="container   mx-auto py-8 ">
+    <div className="container mx-auto py-8 ">
       <div className='container w-full h-[10vh] '>
 
       </div>

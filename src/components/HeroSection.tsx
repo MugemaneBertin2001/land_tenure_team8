@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div className='mt-10 bg-cover bg-center h-[94vh] items-center ' id='HeroSection' >
         <div className="hero-section  text-white py-16 px-4 text-center my-auto">
-            <p className="text-5xl	 leading-relaxed ">
+            <p className="text-3xl md:text-5xl	 leading-relaxed ">
             Empowering Land Ownership <br />
             with
             <span className='text-[#F62898] ml-3'>

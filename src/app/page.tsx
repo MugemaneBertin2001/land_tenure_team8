@@ -19,8 +19,8 @@ export default function Home() {
     <PropertyListing />
     <ContactSection />
     <TestimonialSection  />
-    </div>
     <FooterSection />
+    </div>
    </div>
   )
 }
