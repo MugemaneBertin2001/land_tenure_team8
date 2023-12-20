@@ -11,7 +11,7 @@ type CardProps = {
 
   const FeatureCard: React.FC<CardProps> = ({ imageSource, header, description, imageName }) => {
     return (
-      <div className="md:w-1/3 flex rounded-lg p-6 m-4 items-stretch border">
+      <div className="md:w-1/4 flex rounded-lg p-6 mx-5 mb-10  border">
         <div className="flex flex-col justify-between w-full">
           <Image
             src={imageSource}

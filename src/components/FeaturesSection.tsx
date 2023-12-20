@@ -29,18 +29,18 @@ const features = [
     imageSrc: securityImage,
     imageName: 'security'
   },
-  // {
-  //   header: 'Decentralized Data Management',
-  //   description: 'Landvault integrates blockchain technology for secure and tamper-proof land ownership records and transactions. with transparency, and decentralization.',
-  //   imageName: 'decentalization',
-  //   imageSrc: communityImage,
-  // },
-  // {
-  //   header: 'Web3 Wallet Integration',
-  //   description: 'We provide an option for users to connect their Web3 wallets (e.g. MetaMask, Trust Wallet) directly to the platform for managing their land records and transactions securely.',
-  //   imageName: 'community',
-  //   imageSrc: decentralizationImage,
-  // },
+  {
+    header: 'Decentralized Data Management',
+    description: 'Landvault integrates blockchain technology for secure and tamper-proof land ownership records and transactions. with transparency, and decentralization.',
+    imageName: 'decentalization',
+    imageSrc: communityImage,
+  },
+  {
+    header: 'Web3 Wallet Integration',
+    description: 'We provide an option for users to connect their Web3 wallets (e.g. MetaMask, Trust Wallet) directly to the platform for managing their land records and transactions securely.',
+    imageName: 'community',
+    imageSrc: decentralizationImage,
+  },
 ]
 
 function FeaturesSection() {
@@ -50,11 +50,11 @@ function FeaturesSection() {
     <h1 className='text-3xl text-white'>
       Features
     </h1>
-    <p className='text-white'>
+    <p className='text-white my-10'>
       All packed with amazing features to make your land ownership and transaction experience pleasant
     </p>
   </div>
-  <div className="flex flex-col md:flex-wrap md:flex-row justify-center items-left px-4 md:px-8 py-6 space-y-6 md:space-y-0 md:space-x-6 ">
+  <div className="flex flex-wrap justify-center ">
     {features.map((feature, index) => (
       <FeatureCard
         key={index}
