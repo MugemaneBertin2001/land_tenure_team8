@@ -54,7 +54,7 @@ function FeaturesSection() {
         All packed with amazing features to make your land ownership and transaction experience pleasant
         </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center px-4 md:px-8 py-6 ">
+        <div className="flex flex-wrap md:flex-row justify-center items-center px-4 md:px-8 py-6 ">
           {features.map((feature, index) => (
               <FeatureCard
                 key={index}
@@ -72,32 +72,32 @@ function FeaturesSection() {
         </div>
     </div>
     
-    <div className='items-center py-6' id='features'>
-      <div>
-        <h1 className='text-3xl text-white text-center'>
-          Features
-        </h1>
-        <p className='text-center text-white'>
-          All packed with amazing features to make your land ownership and transaction experience pleasant
-        </p>
-      </div>
-      <div className="flex flex-col md:flex-row justify-center items-center px-4 md:px-8 py-6 ">
-        {features.map((feature, index) => (
-          <FeatureCard
-            key={index}
-            header={feature.header}
-            description={feature.description}
-            imageSource={feature.imageSrc}
-            imageName={feature.imageName}
-          />
-        ))}
-      </div>
-      <div className='text-center md:px-8'>
-        <button className="bg-transparent border-2 text-white font-bold py-2 px-4 rounded">
-          Learn More
-        </button>
-      </div>
-    </div>
+    // <div className='items-center py-6' id='features'>
+    //   <div>
+    //     <h1 className='text-3xl text-white text-center'>
+    //       Features
+    //     </h1>
+    //     <p className='text-center text-white'>
+    //       All packed with amazing features to make your land ownership and transaction experience pleasant
+    //     </p>
+    //   </div>
+    //   <div className="flex flex-col md:flex-row justify-center items-center px-4 md:px-8 py-6 ">
+    //     {features.map((feature, index) => (
+    //       <FeatureCard
+    //         key={index}
+    //         header={feature.header}
+    //         description={feature.description}
+    //         imageSource={feature.imageSrc}
+    //         imageName={feature.imageName}
+    //       />
+    //     ))}
+    //   </div>
+    //   <div className='text-center md:px-8'>
+    //     <button className="bg-transparent border-2 text-white font-bold py-2 px-4 rounded">
+    //       Learn More
+    //     </button>
+    //   </div>
+    // </div>
   )
 }
 

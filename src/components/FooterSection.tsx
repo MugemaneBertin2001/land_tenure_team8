@@ -11,11 +11,6 @@ function FooterSection() {
       </div>
     
     </footer>
-  )
-=======
-    return (
-        <div id='footer-section' className='text-white'>FooterSection</div>
-    )
-}
+  )}
 
 export default FooterSection

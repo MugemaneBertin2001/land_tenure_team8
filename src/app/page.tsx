@@ -23,20 +23,5 @@ export default function Home() {
     <FooterSection />
     </div>
    </div>
-
-export default function Home() {
-  return (
-    <div>
-      <Header />
-      <HeroSection />
-      <AboutSection />
-      <FeaturesSection />
-      <div id='listing'>
-        <PropertyListing />
-        <ContactSection />
-        <TestimonialSection />
-      </div>
-      <FooterSection />
-    </div>
   )
 }
