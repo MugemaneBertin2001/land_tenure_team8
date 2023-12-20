@@ -1,4 +1,4 @@
-globalimport React from 'react'
+
 
     const people = [
         {
