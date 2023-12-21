@@ -1,4 +1,6 @@
+"use client"
 import React from 'react'
+import { SignInButton } from "@clerk/nextjs";
 
 function HeroSection() {
   return (
@@ -18,10 +20,9 @@ function HeroSection() {
                 <button className="bg-purple-900 text-white py-2 px-4 rounded hover:bg-purple-700 transition duration-300 ease-in-out">
                     Get Started
                 </button>
-                <button className="bg-transparent text-white border border-white py-2 px-4 rounded hover:bg-white hover:text-purple-600 transition duration-300 ease-in-out">
-                    Sign In
-                </button>
-    
+                <SignInButton>
+                <button type="button" className=" block md:hidden text-purple-700 bg-white border mr-5 border-purple-700 hover:bg-purple-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-gray-900 dark:hover:bg-purple-700 dark:focus:ring-purple-800" >Sign In</button>
+                </SignInButton> 
         </div>
     </div>
     </div>
