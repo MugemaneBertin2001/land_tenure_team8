@@ -2,14 +2,14 @@
 import React from 'react'
 import AppLogo from '@/Images/Logo/Logo.png'
 import { Image } from 'next/dist/client/image-component'
-import User from '@/components/dashboard/user'
+import User from '@/components/dashboard/User'
 import NotificationButton from '@/components/dashboard/NotificationButton'
 import UploadButton from './UploadButton'
 import SearchBar from './SearchBar'
 
 const TopNavbar = ()=>{
     return(   
-        <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse w-20 ">
         <Image src={AppLogo} className="h-13 w-25" alt="App Logo" />

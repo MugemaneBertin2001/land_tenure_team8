@@ -1,6 +1,7 @@
 import React from 'react'
+import Sidebar from '../Sidebar'
 
-function SideNavbar() {
+function Sa() {
  return (
     <>   
 <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
@@ -78,7 +79,7 @@ function SideNavbar() {
    </div>
 </aside>
 
-<div className="p-4 sm:ml-64">
+<div className="p-4 sm:ml-64 mt-20">
    <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
       <div className="grid grid-cols-3 gap-4 mb-4">
          <div className="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
@@ -183,4 +184,4 @@ function SideNavbar() {
   )
 }
 
-export default SideNavbar
+export default Sidebar
