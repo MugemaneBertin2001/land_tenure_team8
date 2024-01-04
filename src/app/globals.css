@@ -34,5 +34,10 @@
   /* background-color: rgb(99, 4, 99); */
 }
 #testimony-section{
-  background-image:url('../Images/testimonies/testimony.svg')
+  border-bottom: 10px;
+  background-image: url('../Images/Footer.svg')
+}
+#footer{
+  background-color: black;
+  /* background-image:url('../Images/testimonies/testimony.svg') */
 }
