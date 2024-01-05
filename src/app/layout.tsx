@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { ClerkProvider } from '@clerk/nextjs'
+import PrelineScript from '@/components/PrelineScript'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,8 +23,11 @@ export default function RootLayout({
         <div className="mx-35">
         {children}
         </div>
+        <script src="./node_modules/preline/dist/preline.js"></script>
+        {/* <script src="https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"></script> */}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
       </body>
+      <PrelineScript />
     </html>
     </ClerkProvider>
   )
