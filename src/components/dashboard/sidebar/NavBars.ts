@@ -11,8 +11,8 @@ const NavBars: NavBarItem[] = [
         icon: FaChartBar,
     },
     {
-        name: "Notification",
-        url: "/notification",
+        name: "Notifications",
+        url: "/notifications",
         icon: FaBell,
     },
     {

@@ -20,7 +20,7 @@ const NavigationItem: React.FC<NavigationItemProps> = ({ name, url, icon: Icon ,
             >
                 <Icon className='text-2xl' />
                 {!hideText && (
-                    <span className="text-lg  ">{name}</span>
+                    <span className="text-md  ">{name}</span>
                 )}
             </a>
         </li>

@@ -7,7 +7,7 @@ import PrelineScript from '@/components/landingPage/PrelineScript'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'LandVaul: Web3 Land Tenure',
+  title: 'LandVault: Web3 Land Tenure',
   description: 'Web3 Land Tenure',
 }
 

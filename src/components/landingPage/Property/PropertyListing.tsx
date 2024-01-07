@@ -35,7 +35,7 @@ const PropertyData = [
 
 export default function PropertyListing() {
   return (
-    <div  className='items-center py-6 mb-[5rem] '>
+    <div  className='items-center py-6 mb-[5rem] ' id="solutions">
         <div>
             <p className='text-3xl text-white text-center '>
                 Property Listings

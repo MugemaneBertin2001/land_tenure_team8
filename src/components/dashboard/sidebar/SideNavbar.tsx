@@ -13,7 +13,7 @@ const SideNavbar: React.FC = () => {
     };
     return (
         
-        <div id="docs-sidebar" className="font-roboto hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform block fixed top-[5.46rem] start-0 bottom-0 z-[60] w-fit bg-white border-e border-gray-200 pt-7 pb-10 overflow-y-auto lg:block lg:translate-x-0 lg:end-auto lg:bottom-0 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-slate-700 dark:[&::-webkit-scrollbar-thumb]:bg-slate-500 dark:bg-gray-800 dark:border-gray-700">
+        <div id="docs-sidebar" className="font-roboto  block top-[5.46rem] start-0 bottom-0 z-[60] w-fit bg-white border-e border-gray-200 pt-7 pb-10 overflow-y-auto lg:block lg:translate-x-0 lg:end-auto lg:bottom-0 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-slate-700 dark:[&::-webkit-scrollbar-thumb]:bg-slate-500 dark:bg-gray-800 dark:border-gray-700 h-full">
               <ul className='space-y-5'>
                 <li className='item-end w-fit'>
                 <button
