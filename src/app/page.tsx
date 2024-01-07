@@ -1,12 +1,12 @@
 
 import AboutSection from '@/components/landingPage/AboutSection'
-import ContactSection from '@/components/landingPage/ContactSection'
-import FeaturesSection from '@/components/landingPage/FeaturesSection'
-import FooterSection from '@/components/landingPage/FooterSection'
+import ContactSection from '@/components/landingPage/ContactSection/ContactSection'
+import FeaturesSection from '@/components/landingPage/Features/FeaturesSection'
+import FooterSection from '@/components/landingPage/Footer/FooterSection'
 import Header from '@/components/landingPage/Header'
 import HeroSection from '@/components/landingPage/HeroSection'
-import PropertyListing from '@/components/landingPage/PropertyListing'
-import TestimonialSection from '@/components/landingPage/TestimonialSection'
+import PropertyListing from '@/components/landingPage/Property/PropertyListing'
+import TestimonialSection from '@/components/landingPage/Testimonials/TestimonialSection'
 
 
 export default function Home() {

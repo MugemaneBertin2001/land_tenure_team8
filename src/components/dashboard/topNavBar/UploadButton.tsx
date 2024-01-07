@@ -8,9 +8,11 @@ interface UploadButtonProps {
 
 const UploadButton: React.FC<UploadButtonProps> = ({  }) => {
   return (
+    <div className="flex items-center  rounded-lg px-4">
+      <div className="relative">
     <button
     //   onClick={onClick}
-      className="flex items-center justify-center bg-pink-900 text-white rounded-lg px-12 py-2"  
+      className=" px-8 border border-gray-300 rounded-lg flex items-center justify-center bg-pink-900 text-white  py-2"  
     >
        <span className='mr-10'>
         Upload
@@ -18,6 +20,8 @@ const UploadButton: React.FC<UploadButtonProps> = ({  }) => {
         <FaCloudUploadAlt />
 
     </button>
+    </div>
+    </div>
   );
 };
 

@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { SignInButton, SignUpButton, useUser  } from "@clerk/nextjs";
+import { BsArrowRight } from 'react-icons/bs';
 import User from './User';
 
 function AccountButton() {
@@ -8,7 +9,17 @@ function AccountButton() {
 
   return (
     <>
-    {user.isSignedIn? (<User />):(
+    {user.isSignedIn? (
+      <div className='flex flex-col space-y-3 items-center'>
+        <User />
+        <a href="/dashboard">
+        <button className="flex items-center gap-2 px-2 bg-purple-700 text-white rounded-md">
+          Dashboard
+          {/* <BsArrowRight size={25} /> */}
+        </button>
+        </a>
+      </div>
+    ):(
       <div className="hs-dropdown relative inline-flex">
       <button id="hs-dropdown-basic" type="button" className="hs-dropdown-toggle py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
         Account

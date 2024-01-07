@@ -2,7 +2,7 @@
 "use client"
 import { UserIcon, MailIcon, MailOpenIcon } from '@heroicons/react/outline';
 import React, { useState } from 'react';
-import IconInput from './IconInput';
+import IconInput from './IconInput'
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',

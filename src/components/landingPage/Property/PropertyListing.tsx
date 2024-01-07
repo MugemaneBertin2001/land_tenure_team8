@@ -30,14 +30,6 @@ const PropertyData = [
       price: '0.23',
       unitsAvailable: 4,
       market:'rent'
-    },
-    {
-      imageUrl: Image_4,
-      description: '2 Plots of land at sea Bay',
-      location: 'Accra, Ghana',
-      price: '0.43',
-      unitsAvailable: 2,
-      market:'sale'
     }
   ];
   
@@ -61,7 +53,7 @@ export default function PropertyListing() {
             <a href="#" className="text-blue-500 hover:underline">See More</a>
             </div>
         </div>
-        <div className="flex flex-wrap justify-left w-[95%] mx-auto items-center">
+        <div className="flex flex-wrap justify-center w-[95%] mx-auto ">
         {PropertyData.map((property, index) => (
                 <PropertyCard
                 key={index}
