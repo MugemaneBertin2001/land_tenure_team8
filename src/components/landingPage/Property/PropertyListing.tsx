@@ -12,7 +12,7 @@ const PropertyData = [
       location: 'Miami, USA',
       price: '0.38',
       unitsAvailable: 6,
-      market: 'sale'
+      market: 'rent'
     },
     {
       imageUrl: Image_2,
@@ -20,7 +20,7 @@ const PropertyData = [
       location: 'Lagos, NG',
       price: '0.18',
       unitsAvailable: 3,
-      market: 'rent'
+      market: 'sale'
     },
     {
       imageUrl: Image_3,
