@@ -1,9 +1,8 @@
 import React from 'react'
 import PropertyCard from './PropertyCard'
-import Image_1 from '@/Images/Frame 59545-1.jpg'
-import Image_2 from '@/Images/Frame 59545-2.jpg'
-import Image_3 from '@/Images/Frame 59545-3.jpg'
-import Image_4 from '@/Images/Frame 59545.jpg'
+import Image_1 from '@/Images/properties/house_1.jpeg'
+import Image_2 from '@/Images/properties/house_2.jpg'
+import Image_3 from '@/Images/properties/house_3.jpg'
 
 // property data
 const PropertyData = [
