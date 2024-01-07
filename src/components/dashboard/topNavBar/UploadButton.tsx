@@ -12,7 +12,7 @@ const UploadButton: React.FC<UploadButtonProps> = ({  }) => {
       <div className="relative">
     <button
     //   onClick={onClick}
-      className=" px-8 border border-gray-300 rounded-lg flex items-center justify-center bg-pink-900 text-white  py-2"  
+      className="py-2 px-8 border border-gray-300 rounded-lg flex items-center justify-center bg-pink-900 text-white "  
     >
        <span className='mr-10'>
         Upload
