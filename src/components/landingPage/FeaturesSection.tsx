@@ -1,7 +1,7 @@
 import React from 'react'
 import FeatureCard from './FeatureCard'
 import securityImage from '@/Images/Secutity.png'
-import decentralizationImage from '../Images/Frame 59557.png'
+import decentralizationImage from '@/Images/Frame 59557.png'
 import communityImage from '@/Images/fi-sr-user.png'
 
 const features = [

@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { ClerkProvider } from '@clerk/nextjs'
-import PrelineScript from '@/components/PrelineScript'
+import PrelineScript from '@/components/landingPage/PrelineScript'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Create Next App',
+  title: 'LandVaul: Web3 Land Tenure',
   description: 'Web3 Land Tenure',
 }
 

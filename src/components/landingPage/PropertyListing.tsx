@@ -61,7 +61,7 @@ export default function PropertyListing() {
             <a href="#" className="text-blue-500 hover:underline">See More</a>
             </div>
         </div>
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-left w-[95%] mx-auto items-center">
         {PropertyData.map((property, index) => (
                 <PropertyCard
                 key={index}

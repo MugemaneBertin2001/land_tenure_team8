@@ -2,7 +2,7 @@
 import React from 'react'
 import AppLogo from '@/Images/Logo/Logo.png'
 import { Image } from 'next/dist/client/image-component'
-import AccountButton from './dashboard/AccountButton'
+import AccountButton from '../dashboard/topNavBar/AccountButton'
 function Header() {
   return(
 <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">

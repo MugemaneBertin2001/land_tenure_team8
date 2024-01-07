@@ -20,7 +20,7 @@ const PropertyCard: React.FC<CardProps> = ({
   }) => {
     
     return (
-      <div className=" max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-4">
+      <div className=" w-[95%] md:max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-4">
         <Image
           className="w-full h-64 object-cover object-center"
           src={imageUrl}

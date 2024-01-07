@@ -30,8 +30,8 @@
 
 }
 #button{
-  background-image: url('../Images/Button.svg');
-  /* background-color: rgb(99, 4, 99); */
+  /* background-image: url('../Images/Button.svg'); */
+  background-color: rgb(99, 4, 99);
 }
 #testimony-section{
   border-bottom: 10px;
