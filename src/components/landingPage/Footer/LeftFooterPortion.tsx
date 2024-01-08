@@ -2,6 +2,8 @@ import React from 'react'
 import AppLogo from '@/Images/Logo/Logo.png'
 import { Image } from 'next/dist/client/image-component'
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import IconInput from '../ContactSection/IconInput';
+import {MailIcon } from '@heroicons/react/outline';
 
 function LeftFooterPortion() {
   return (
@@ -33,11 +35,19 @@ function LeftFooterPortion() {
             <p className='text-xl font-semibold text-white my-6'>
               Subscribe to Our newsletter
             </p>
-            <div className='flex flex-row space-x-3'>
-            <input type="text" name="" id=""  className='py-2 px-8 border border-gray-300 rounded-lg ' placeholder='Email...'/>
-            <button className='bg-pink-600 p-2 border border-gray-300 rounded-lg text-white font-bold'>Subscribe</button>
-
+            <div className="flex flex-col space-y-3">
+            <div className="relative">
+                <input type="email" placeholder="Email..." className="pl-10 py-2 pr-3 border border-gray-300 rounded-lg w-full" />
+                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                    <svg className="h-5 w-5 text-gray-400" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M20 5H4C2.89543 5 2 5.89543 2 7V17C2 18.1046 2.89543 19 4 19H20C21.1046 19 22 18.1046 22 17V7C22 5.89543 21.1046 5 20 5Z" />
+                        <path d="M22 7L12 13L2 7" />
+                    </svg>
+                </div>
             </div>
+            <button className="bg-pink-600 py-2 px-8 border border-gray-300 rounded-lg text-white font-bold w-full">Subscribe</button>
+            </div>
+
           </form>
         </div>
 
