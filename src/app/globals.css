@@ -41,3 +41,7 @@
   background-color: black;
   /* background-image:url('../Images/testimonies/testimony.svg') */
 }
+#left-portion{
+  background-image: url('../Images/Welcome.svg');
+  background-repeat: no-repeat;
+}

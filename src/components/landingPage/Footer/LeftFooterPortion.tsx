@@ -39,7 +39,7 @@ function LeftFooterPortion() {
             <div className="relative">
                 <input type="email" placeholder="Email..." className="pl-10 py-2 pr-3 border border-gray-300 rounded-lg w-full" />
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                    <svg className="h-5 w-5 text-gray-400" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="h-5 w-5 text-gray-400" fill="none" stroke-linecap="round" stroke-linejoin="round" strokewidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M20 5H4C2.89543 5 2 5.89543 2 7V17C2 18.1046 2.89543 19 4 19H20C21.1046 19 22 18.1046 22 17V7C22 5.89543 21.1046 5 20 5Z" />
                         <path d="M22 7L12 13L2 7" />
                     </svg>

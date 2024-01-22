@@ -17,7 +17,6 @@ interface DashboardLayoutProps {
         </div>
         <div className='flex-grow bg-white text-black p-8'>
           <div className='w-full text-center'>
-            <h1 className='text-4xl font-bold'>Dashboard</h1>
             <div className='mt-4 text-lg'>{children}</div>
           </div>
         </div>
