@@ -43,5 +43,6 @@
 }
 #left-portion{
   background-image: url('../Images/Welcome.svg');
-  background-repeat: no-repeat;
+  background-repeat:space;
+  background-position-x: center;
 }
